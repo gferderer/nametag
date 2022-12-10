@@ -28,3 +28,21 @@ header .logo {
 main {
     padding: 20px;
 }
+.nametag{
+    background: red;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 50px;
+    padding-bottom: 10px;
+    width: 400px;
+    text-align: center;
+}
+.greeting{
+    font-size: xxx-large;
+    font-weight:bolder;
+}
+.name{
+    background: white;
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
