@@ -9,7 +9,7 @@ body {
 
 header {
     position: sticky;
-    top: 0;
+    top: auto;
     padding: 20px;
     height: 60px;
 
@@ -21,6 +21,7 @@ header {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+
 header .logo {
     height: 100%;
 }
@@ -28,19 +29,26 @@ header .logo {
 main {
     padding: 20px;
 }
+.h1{
+    align-content: center;
+}
 .nametag{
-    background: red;
+    background:rgb(142, 232, 216);
     margin-left: 200px;
     margin-right: 200px;
     border: 50px;
     padding-bottom: 10px;
     width: 400px;
     text-align: center;
-    font-family: Tangerine;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px;
 }
 .greeting{
+    background-color: rgb(142, 232, 216);
     font-size: xxx-large;
     font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px;
 }
 .name{
     background: white;
