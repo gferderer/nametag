@@ -9,7 +9,8 @@ button.addEventListener('click', () => {
     console.log(nameDisplay);
     // nameDisplay.textContent = 'Julie';
     nameDisplay.textContent = nameInput.value;
-    nameDisplay.style.color = 'red';
+    nameDisplay.style.color = 'black';
+
 });
 const pronounDisplay = document.getElementById('pronoun-display');
 const pronounInput = document.getElementById('pronoun-input');
@@ -25,6 +26,7 @@ nameDisplay.addEventListener('keydown', () => {
     console.log(nameDisplay);
     nameDisplay.textContent = nameInput.value;
 });
+
 
 
 

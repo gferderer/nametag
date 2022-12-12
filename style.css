@@ -12,9 +12,11 @@ body {
 
 header {
     position: sticky;
+    text-align: center;
     top: auto;
     padding: 10px;
     height: 60px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,8 +28,8 @@ header {
 
 
 .container{
-    text-align: center;
-    background-color: ;
+    text-align: ;
+    
 }
 #update-pb{
     background-color: #b7a2f7;
@@ -68,20 +70,23 @@ main {
     font-weight:bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 25px;
+    padding-top: 15px;
     text-align: center;
 }
  #name-display{
     background-color: white;
+    height: 0px;
+
  }
 .name{
     background: white;
-    height: 20px;
-    padding: 0px;
     padding-top: 10%;
     padding-bottom: 10%;
     font-size: 30px;
     font-family:'Fredoka+One';
     text-align: center;
 }
-
+.pronoun-display{
+    padding-bottom: 10px;
+}
 
